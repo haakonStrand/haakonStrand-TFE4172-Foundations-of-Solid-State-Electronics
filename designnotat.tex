@@ -1,0 +1,36 @@
+\documentclass[a4paper,11pt,norsk]{article}
+
+%Henter ulike pakker fra dokumentet packages.sty
+\usepackage{packages}
+\addbibresource{Bibliografi/bibliografi.bib}
+\documentclass[tikz]{standalone}
+\documentclass[11pt]{scrartcl} % use larger type; default would be 10pt
+\usepackage[wby]{callouts}
+\begin{document}
+
+%Overskrift
+\input{Overskrift_innholdsfortegnelse/Titteltekst}
+
+%Innholdfortegnelse
+\input{Overskrift_innholdsfortegnelse/Innholdsfortegnelse}
+
+%Selve rapporten:------------------------------------------
+\input{Seksjoner/00SamtaleTema1}
+
+\input{Seksjoner/01SamtaleTema2}
+
+\input{Seksjoner/02SamtaleTema3}
+
+\input{Seksjoner/03SamtaleTema4}
+
+\input{Seksjoner/04SamtaleTema5}
+
+\input{Seksjoner/05SamtaleTema6}
+
+%Bibliografi
+\input{Bibliografi/Bibliografi_kode}
+
+%Tillegg
+\input{Seksjoner/99Tillegg}
+
+\end{document}

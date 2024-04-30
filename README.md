@@ -1,4 +1,4 @@
-This document is written by Haakon Strand, 
+This was written by Haakon Strand, 
 
 Input has been collected from the subject lectures, Rebecca Flugstads notes and the book Fundamentals of Solid State Engineering (4th edition) by Manijeh Razeghi.
 
